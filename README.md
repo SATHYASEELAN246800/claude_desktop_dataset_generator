@@ -1,5 +1,3 @@
-
-```
 # 🧠 Smart Dataset Generator & ML Classifier (End-to-End MCP Project)
 
 A full-stack project that combines AI-assisted data generation (Claude), machine learning model training (Python), and GUI-based interaction (Colab + Gradio) for smart outcome prediction and analytics. Built using the MCP (Machine Learning + Content Pipeline) methodology.
@@ -15,57 +13,25 @@ A full-stack project that combines AI-assisted data generation (Claude), machine
 
 ## 🧾 Prompt Used in Claude Desktop
 
-```
-
-Generate a smart dataset of 100 rows with:
-
-* Name, Role, MediaType, Job Domain, Gender, Age, Income, Region, Duration, Status, Date, Outcome
-
-Then:
-
-1. Analyze: unique counts, trends, missing values
-2. Train ML model (Decision Tree / Logistic Regression)
-3. Show accuracy + confusion matrix
-4. Export as SmartDataset.xlsx
-5. Save to D:\claude desktop
-
-```
-
----
-
-## 📂 Folder Structure
-
-```
-
-D:/
-└── claude desktop/
-├── SmartDataset.xlsx
-├── ML\_Model\_Output.txt
-├── GUI\_Classifier.ipynb
-├── confusion\_matrix.png (optional)
-└── README.md
-
-````
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Tool/Tech           | Purpose                                      |
-|---------------------|----------------------------------------------|
-| **Claude Desktop AI** | Data generation + ML automation via prompts |
-| **Python 3.10+**     | Programming language                         |
-| **pandas**           | Data handling                                |
-| **scikit-learn**     | ML model building                            |
-| **matplotlib / seaborn** | Data visualization (if added)             |
-| **Google Colab**     | Online Python notebook platform              |
-| **Gradio**           | GUI for model training (in Colab)            |
-| **Excel**            | Output format for datasets                   |
-| **LabelEncoder / StandardScaler** | Preprocessing tools in sklearn  |
+| Tool/Tech                | Purpose                                     |
+|--------------------------|---------------------------------------------|
+| **Claude Desktop AI**    | Data generation + ML automation via prompts |
+| **Python 3.10+**         | Programming language                        |
+| **pandas**               | Data handling                               |
+| **scikit-learn**         | ML model building                           |
+| **matplotlib / seaborn** | Data visualization (if used)                |
+| **Google Colab**         | Online Python notebook platform             |
+| **Gradio**               | GUI for model training in Colab             |
+| **Excel**                | Output format                               |
 
 ---
 
-## 📊 Sample Dataset Output (Excel)
+## 📊 Sample Dataset Output
 
 | Name        | Role       | MediaType | Domain       | Region     | Outcome |
 |-------------|------------|-----------|--------------|------------|---------|
@@ -75,17 +41,14 @@ D:/
 
 ---
 
-
----
-
 ## 💻 GUI via Google Colab
 
 The project includes a **Gradio-based GUI** in Google Colab that allows users to:
 
-* Upload or generate new data
-* Select model type (Logistic, Tree)
-* Click-to-train and visualize results
-* Export predictions
+- Upload or generate new data
+- Select model type (Logistic, Tree)
+- Click-to-train and visualize results
+- Export predictions
 
 📎 Launch here: [Google Colab Notebook](https://colab.research.google.com/drive/1SamHX1MZscWHJRWyb6P30j3dlUiqAQKV#scrollTo=g3gDlZ-97m0t)
 
@@ -96,32 +59,30 @@ The project includes a **Gradio-based GUI** in Google Colab that allows users to
 1. Open **Claude Desktop**
 2. Paste the provided prompt
 3. Download the generated Excel dataset
-4. Move to `D:\claude desktop`
-5. Run the provided Python code or Colab GUI
+4. Move the file to: `D:\claude desktop`
+5. Run the Python code or use the Colab GUI
 6. View predictions, accuracy, and reports
 
 ---
 
 ## 📈 Future Enhancements
 
-* Add support for real image/audio files
-* Extend to multi-label outcome predictions
-* Connect to real-time sensors or APIs
-* Export analytics to PDF or dashboards
-* Dockerize for deployment
+- Add support for real image/audio files
+- Extend to multi-label classification
+- Connect with real-time APIs/sensors
+- Export analytics to PDF or dashboard
+- Dockerize the entire pipeline
 
 ---
 
 ## 📝 License
 
-This project is open-source and free to use under the [MIT License](LICENSE).
+This project is licensed under the ....
 
 ---
 
 ## 👤 Credits
 
-* **Project Lead:** Sathya Seelan
-* **ML Assistant:** Claude AI
-* **GUI Developer:** Gradio + Google Colab
-
-```
+- **Project Lead:** Sathya Seelan  
+- **ML Assistant:** Claude AI  
+- **GUI Developer:** Gradio + Google Colab
